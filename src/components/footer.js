@@ -1,72 +1,38 @@
 "use client"; // Required in Next.js 15 for interactivity
 import Link from "next/link"
+import Image from "next/image";
 import { IoCodeSlashSharp } from "react-icons/io5";
 import { AiTwotoneCheckCircle, AiFillInstagram, AiFillTwitterSquare,  AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 
 function Footer(){
   return (
-    <div className="flex flex-col justify-center items-center bg-blue-900 w-full py-28 overflow-x-hidden">
+    <div className="flex flex-col justify-center items-center bg-white w-full py-28 overflow-x-hidden">
 
-      <div className="mt-10 flex flex-row justify-evenly items-center flex-wrap w-full">
-
-            {/* ONE COLUMN */}
-            <div className="flex flex-col justify-center items-center space-y-2 flex-wrap p-6 self-start ">
-
-              <h2 className="text-white text-left font-bold uppercase text-3xl mx-4 banner-text">Company</h2>
-
-                <Link className="self-start" href="/">
-                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">company</span>
-                </Link>
-
-      
-
-            </div>
-
-           {/* ONE COLUMN */}
-            <div className="flex flex-col justify-center items-center space-y-2 flex-wrap self-start p-6">
-
-              <h2 className="text-white text-left font-bold uppercase text-3xl mx-4 banner-text">Links</h2>
-
-                <Link className="self-start" href="/contact">
-                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Contact Us</span>
-                </Link>
-
-                <Link className="self-start" href="/">
-                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">About Us</span>
-                </Link>
-
-                <Link className="self-start" href="/terms-and-conditions">
-                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Terms and Conditions</span>
-                </Link>
-
-                <Link className="self-start" href="/privacy-policy">
-                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Privacy Policy</span>
-                </Link>
-
-                <Link className="self-start" href="/return-refund-shipping">
-                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Return / Refund / Shipping</span>
-                </Link>
-
-                <Link className="self-start" href="/pricing-policy">
-                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Pricing Policy</span>
-                </Link>
-            </div>
-
-
-
-        </div>
-
-
-      <div className="mt-10 w-full flex flex-col justify-center items-center">
-        <span className="text-white font-bold text-center text-xl uppercase"> MADE WITH NEXT JS</span>
-        <div className="flex flex-row justify-evenly items-center w-52 my-4">
-          <AiFillInstagram className="h-8 w-8 text-white hover:scale-110 transition-all duration-150 ease-out " />
-          <AiFillGithub className="h-8 w-8 text-white hover:scale-110 transition-all duration-150 ease-out " />
-          <AiFillTwitterSquare className="h-8 w-8 text-white hover:scale-110 transition-all duration-150 ease-out " />
-        </div>
-        <span className="text-gray-300 font-thin text-center text-base">© babahadurgarh.com. All Rights Reserved</span>
-
+      <div className="flex flex-col sm:flex-row  w-80 sm:w-3/5 font-semibold justify-evenly items-start sm:space-y-0 space-y-2 sm:items-center text-center py-4 text-black">
+      <span>About THYME</span>
+      <span>Frequently Asked Questions</span>
+      <span>Materials</span>
+      <span>Shipping and Exchange</span>
+      <span>Journal</span>
       </div>
+
+      <div className="relative flex flex-col items-center justify-center w-full pb-40">
+      <div className="flex flex-row items-center justify-center z-[60] overflow-x-auto">
+        <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
+        <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
+        <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
+        <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
+        <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
+      </div>
+      <h1 className="absolute top-60 text-9xl font-extrabold text-center text-gray-300 uppercase my-6">thyme</h1>
+      </div>
+
+      <p className="banner-text text-sm font-normal text-black text-center">This site is protected by the Recaptcha and Google privacy policy and Terms of Service apply.</p>
+
+      <p className="text-black text-sm font-normal text-center banner-text">© 2023 Nemozyn. All Rights Reserved.</p>
+
+      <p className="text-black text-sm font-normal mt-10 text-center banner-text">Privacy Policy Data Request Preferences Accessibility Cookie Preferences</p>
+
     </div>
     
   );
