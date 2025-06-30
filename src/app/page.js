@@ -21,7 +21,7 @@ export default function Home() {
 
       <Banner  />
    
-        <div className="flex flex-col items-center justify-center text-center w-full pt-4 pb-4">
+        <div className="flex flex-col items-center justify-center text-center w-full pt-2 pb-4">
           <p className="text-black font-normal mt-10 text-sm sm:text-base">
             Designed in Seoul, South Korea, made for India
           </p>
@@ -39,8 +39,8 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-          <h1 className="text-center uppercase font-medium text-xl">new arrivals</h1>
-          <p className="text-gray-600 text-sm font-normal text-center flex justify-between w-96"><FaChevronLeft size={24} /> shop from the latest drops, handpicked weekly <FaChevronRight size={24} /></p>
+          <h1 className="text-center uppercase font-medium text-base sm:text-xl">new arrivals</h1>
+          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96"><FaChevronLeft size={24} /> shop from the latest drops, handpicked weekly <FaChevronRight size={24} /></p>
           <Cards />
         </div>
 
@@ -71,8 +71,8 @@ export default function Home() {
 
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-          <h1 className="text-center uppercase font-medium text-xl">bestsellers</h1>
-          <p className="text-gray-600 text-sm font-normal text-center flex justify-between w-96"><FaChevronLeft size={24} /> shop from this week's bestsellers, curated for you <FaChevronRight size={24} /></p>
+          <h1 className="text-center uppercase font-medium text-lg sm:text-xl">bestsellers</h1>
+          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96"><FaChevronLeft size={24} /> shop from this week's bestsellers, curated for you <FaChevronRight size={24} /></p>
           <Cards />
         </div>
 
