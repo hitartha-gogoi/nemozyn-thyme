@@ -30,7 +30,7 @@ function Navbar({ textColor }) {
     <div className="z-[9998] w-full h-40 flex flex-col justify-between absolute top-0 left-0 bg-white">
 
       {/* GREEN NAVBAR */}
-      <div className="flex items-center justify-center h-6 px-4 bg-[#284123] w-full opacity-90">
+      <div className="flex items-center justify-center h-6 px-4 bg-[#284123] w-full">
         <span className="text-center text-[#DCE2C8] font-light text-xs sm:text-sm">Nemozyn is now Thyme | Explore our new arrivals</span>
       </div>
 
