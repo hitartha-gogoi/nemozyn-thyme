@@ -30,13 +30,13 @@ function Navbar({ textColor }) {
     <div className="z-[9998] w-full h-40 flex flex-col justify-between absolute top-0 left-0 bg-white">
 
       {/* GREEN NAVBAR */}
-      <div className="flex items-center justify-center h-6 px-4 bg-green-800 w-full">
+      <div className="flex items-center justify-center h-6 px-4 bg-[#284123] w-full">
         <span className="text-center text-white font-light text-xs sm:text-sm">Nemozyn is now Thyme | Explore our new arrivals</span>
       </div>
 
       {/* THYME */}
       <div className="flex items-center justify-center my-2 w-full h-12 px-4 bg-white">
-        <Image src={'/Logo.png'} className="h-12 w-32" width={300} height={300} objectFit="contain" />
+        <Image src={'/Logo.png'} className="h-20 w-52" width={300} height={300} objectFit="contain" />
       </div>
 
       {/* GRAY NAVBAR */}

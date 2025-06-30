@@ -21,20 +21,20 @@ export default function Home() {
 
       <Banner  />
    
-        <div className="flex flex-col items-center justify-center text-center w-full py-4">
-          <p className="text-black font-normal ">
+        <div className="flex flex-col items-center justify-center text-center w-full pt-4 pb-4">
+          <p className="text-black font-normal mt-10">
             <ReactTyped typeSpeed={10} backSpeed={10} startDelay={1000} loop  backDelay={5000}  strings={[`Designed in Seoul, South Korea, made for India` ]}/>
           </p>
           <p className="text-black font-normal banner-text">Modern minimalist silhouettes --- crafted for those who value simplicity, elegance, and concious living</p>
-          <button className="bg-white text-black py-2 px-8 hover:scale-105 hover:shadow-md shadow-sm duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium banner-text mt-4">Shop</button>
+          <button className="bg-white text-black py-2 px-8 hover:scale-105 hover:shadow-md shadow-sm duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium banner-text mt-4 mb-8">Shop</button>
 
         </div>
 
-        <div className=" flex flex-row justify-center items-center w-full flex-wrap">
-          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
-          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
-          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
-          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
+        <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-2">
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-[40rem] md:[30rem]" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-[40rem] md:[32rem]" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-[40rem] md:[32rem]" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-[40rem] md:[32rem]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
 
         </div>
 
