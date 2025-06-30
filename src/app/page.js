@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row items-center justify-between flex-wrap text-center w-full py-4 mt-20 text-black">
-          <div className="h-96 w-full sm:w-1/2 flex flex-col justify-between items-start p-4 bg-green-800 text-white">
+          <div className="h-96 w-full sm:w-1/2 flex flex-col justify-between items-start p-4 bg-[#284123] text-white">
             <h1 className=" uppercase font-medium text-xl">our values</h1>
             <div className="text-left text-sm font-normal">
               <p className="text-xs">Maria L.</p>
@@ -54,15 +54,15 @@ export default function Home() {
               <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
 
             </div>
-            <button className="bg-green-800 text-white py-2 px-4 border border-white hover:bg-green-900 transition duration-200">write a review</button>
+            <button className="bg-[#284123] text-white py-2 px-4 border border-white hover:bg-green-900 transition duration-200">write a review</button>
           </div>
 
 
           <div className="h-96 w-full sm:w-1/2 flex flex-col justify-center items-start p-10 bg-gray-100 text-black">
            
             <div className="text-left text-sm font-normal">
-              <p className="text-4xl underline w-16">Radcially Clean</p>
-              <p className="text-xs w-20">from source to skin</p>
+              <p className="text-4xl w-16">Radcially <span className="underline pb-4">Clean™</span></p>
+              <p className="text-xs w-20 mb-6">from source to skin</p>
               <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
 
             </div>

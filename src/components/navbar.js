@@ -50,7 +50,7 @@ function Navbar({ textColor }) {
     </div>
 
       {/* SUMMER/SPRING TEXT */}
-      <div className={`flex flex-row justify-center items-center sm:px-10 px-2 text-base uppercase text-${textColor}`}>
+      <div className={`flex flex-row justify-center items-center sm:px-10 px-2 mr-4 sm:mr-28 text-base uppercase text-${textColor}`}>
         <span className="banner-text font-bold text-black text-center uppercase text-sm">summer/spring 25</span>
       </div>
 
