@@ -31,10 +31,10 @@ export default function Home() {
         </div>
 
         <div className=" flex flex-row justify-center items-center w-full flex-wrap">
-          <Image className="w-48 sm:w-1/2 h-48 sm:h-96" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
-          <Image className="w-48 sm:w-1/2 h-48 sm:h-96" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
-          <Image className="w-48 sm:w-1/2 h-48 sm:h-96" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
-          <Image className="w-48 sm:w-1/2 h-48 sm:h-96" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-44 sm:w-1/2 h-44 sm:h-96" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
 
         </div>
 
