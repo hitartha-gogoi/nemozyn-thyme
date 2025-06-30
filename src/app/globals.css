@@ -58,6 +58,16 @@ body {
     "YELA" 0;
 }
 
+@font-face {
+  font-family: 'OverusedGroteskMedium';
+  src: url('/fonts/ttf/OverusedGroteskMedium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overused-grotesk-medium {
+  font-family: 'OverusedGroteskMedium', sans-serif;
+}
 
 .orbitron-font {
   font-family: "Orbitron", serif;
