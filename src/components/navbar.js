@@ -36,7 +36,7 @@ function Navbar({ textColor }) {
 
       {/* THYME */}
       <div className="flex items-center justify-center my-2 w-full h-12 px-4 bg-white">
-        <Image src={'/Logo.png'} className="h-20 w-52" width={300} height={300} objectFit="contain" />
+        <Link href="/"><Image src={'/Logo.png'} className="h-20 w-52" width={300} height={300} objectFit="contain" /></Link>
       </div>
 
       {/* GRAY NAVBAR */}

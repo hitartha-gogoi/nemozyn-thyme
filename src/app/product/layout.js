@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono, Sixtyfour_Convergence, Inter_Tight, Orbitron, Sacramento, Rob  } from "next/font/google";
 import { AppProvider } from "@/context/context";
 
-import "./globals.css";
+import "../globals.css";
 
  export const metadata = {
   title: "Nemozyn Thyme",

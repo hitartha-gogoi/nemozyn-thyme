@@ -31,10 +31,10 @@ export default function Home() {
         </div>
 
         <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-2">
-          <Image className="w-88 sm:w-1/2 md:w-[32rem] h-80 sm:h-[40rem] md:h-[32rem]" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
-          <Image className="w-88 sm:w-1/2 md:w-[32rem] h-80 sm:h-[40rem] md:h-[32rem]" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
-          <Image className="w-88 sm:w-1/2 md:w-[32rem] h-80 sm:h-[40rem] md:h-[32rem]" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
-          <Image className="w-88 sm:w-1/2 md:w-[32rem] h-80 sm:h-[40rem] md:h-[32rem]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
+          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
+          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
 
         </div>
 
