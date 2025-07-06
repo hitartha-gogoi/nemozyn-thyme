@@ -8,7 +8,7 @@ function Footer(){
   return (
     <div className="flex flex-col justify-center items-center bg-white w-full py-28 overflow-x-hidden">
 
-      <div className="flex flex-col sm:flex-row  w-80 sm:w-3/5 font-semibold justify-evenly items-start sm:space-y-0 space-y-2 sm:items-center text-center py-4 text-black">
+      <div style={{ fontSize: "12px" }} className="flex flex-col overused-grotesk-medium sm:flex-row  w-80 sm:w-3/5 font-semibold justify-evenly items-start sm:space-y-0 space-y-2 sm:items-center text-center py-4 text-black">
       <span>About THYME</span>
       <span>Frequently Asked Questions</span>
       <span>Materials</span>
@@ -27,11 +27,11 @@ function Footer(){
       <h1 className="absolute top-60 text-9xl font-extrabold text-center text-gray-300 uppercase my-6">thyme</h1>
       </div>
 
-      <p className="banner-text text-sm font-normal text-black text-center">This site is protected by the Recaptcha and Google privacy policy and Terms of Service apply.</p>
+      <p style={{ fontSize: "12px" }} className="banner-text text-sm font-medium text-black text-center">This site is protected by the Recaptcha and Google privacy policy and Terms of Service apply.</p>
 
-      <p className="text-black text-sm font-normal text-center banner-text">© 2023 Nemozyn. All Rights Reserved.</p>
+      <p style={{ fontSize: "12px" }} className="text-black text-sm font-medium text-center banner-text">© 2023 Nemozyn. All Rights Reserved.</p>
 
-      <p className="text-black text-sm font-normal mt-10 text-center banner-text">Privacy Policy Data Request Preferences Accessibility Cookie Preferences</p>
+      <p style={{ fontSize: "12px" }} className="text-black text-sm font-medium mt-10 text-center banner-text">Privacy Policy Data Request Preferences Accessibility Cookie Preferences</p>
 
     </div>
     
