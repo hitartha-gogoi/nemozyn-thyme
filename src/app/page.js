@@ -14,6 +14,8 @@ import { useRouter } from "next/navigation";
 
 export default function Home() {
 
+  const router = useRouter()
+
   return (
     <div className="relative flex flex-col items-center justify-center w-full bg-white overflow-x-hidden">
 
@@ -27,7 +29,7 @@ export default function Home() {
           </p>
           <p style={{ fontSize: "12px", marginTop: "0px"  }} className="text-black font-medium overused-grotesk-medium">Modern minimalist silhouettes --- crafted for those who value simplicity, elegance, and <br /> <p style={{ marginTop: "0px" }}>concious living</p></p>
       
-          <button className="bg-white text-xs text-black py-2 px-8 hover:scale-105 hover:shadow-md shadow-sm duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium mt-4 mb-8">Shop</button>
+          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 hover:scale-105 hover:shadow-md shadow-sm duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium mt-4 mb-8">Shop</button>
 
         </div>
 

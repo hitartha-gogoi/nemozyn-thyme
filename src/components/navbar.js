@@ -44,19 +44,20 @@ function Navbar({ textColor }) {
 
     {/* SHOP ORGANIC, JOURNAL, SUSTAINABILITY REPORT */}
     <div className="font-normal text-sm flex h-full items-center justify-center text-black">
-      <Link href="/"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm"> Shop organic</span></Link>
+      <MdMoreVert size={24} className="mobile-only-icon ml-4" />
+      <Link href="/"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm hidden"> Shop organic</span></Link>
       <Link href="/"><span className="hidden sm:block hover:shadow-xl mx-4 banner-text">Journal</span></Link>
       <Link href="/"><span className="hidden sm:block hover:shadow-xl mx-4 banner-text">Sustainibility report</span></Link>
     </div>
 
       {/* SUMMER/SPRING TEXT */}
-      <div className={`flex flex-row justify-center items-center sm:px-10 px-2 mr-4 sm:mr-28 text-base uppercase text-${textColor}`}>
+      <div className={`flex flex-row justify-center items-center sm:px-10 px-2 ml-4 sm:mr-28 text-base uppercase text-${textColor}`}>
         <span className="banner-text font-semibold text-black text-center uppercase text-xs sm:text-sm">summer/spring 25</span>
       </div>
 
       {/* CART SALE ACCOUNT */}
       <div className="font-normal text-sm flex h-full items-center justify-center text-black">
-      <Link href="/"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm">Cart [0]</span></Link>
+      <Link href="/cart"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm">Cart [0]</span></Link>
       <Link href="/"><span className="hidden sm:block hover:shadow-xl mx-4 banner-text text-red-500 text-xs sm:text-sm">Sale</span></Link>
       <span onClick={(e) => { e.stopPropagation(); setMoreOpen(!moreOpen); }} className="hidden sm:block hover:shadow-xl mx-4 banner-text">Account</span>
     </div>

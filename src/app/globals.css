@@ -69,6 +69,18 @@ body {
   font-family: 'OverusedGroteskMedium', sans-serif;
 }
 
+
+.mobile-only-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-only-icon {
+    display: block;
+  }
+}
+
+
 .orbitron-font {
   font-family: "Orbitron", serif;
   font-optical-sizing: auto;

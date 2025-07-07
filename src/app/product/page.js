@@ -31,7 +31,7 @@ function ProductPage() {
 
         <div className="flex flex-col items-center justify-center text-center w-full sm:w-1/2 px-2 sm:px-20 mt-12  sm:mt-32">
             <h1 className="text-black font-medium text-xs sm:text-xs uppercase">seoul serenity</h1>
-            <p className="text-black font-semibold text-xs">$2299</p>
+            <p className="text-black font-semibold text-xs">size M</p>
 
             <p className="text-black font-semibold text-xs mt-12">Organic Cotton</p>
             <p className="text-gray-900 text-xs sm:text-xs font-normal">Drop Shoulder, dropped half tshirt in  100% GOTS, OEKO-TEX and Fair Trade certified jersey cotton. Open spread collar with pocket. Inside out stich detailing and fitted with Brazillian ebony  woods button</p>
