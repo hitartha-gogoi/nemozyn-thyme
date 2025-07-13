@@ -16,6 +16,7 @@ function Page() {
     const router = useRouter();
     const onCheckout = async(e) => {
         e.preventDefault();
+        router.push('/checkout-payment');
     }
 
 

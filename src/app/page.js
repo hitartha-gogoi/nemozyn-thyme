@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           <p style={{ fontSize: "12px", marginTop: "0px"  }} className="text-black font-medium overused-grotesk-medium">Modern minimalist silhouettes --- crafted for those who value simplicity, elegance, and <br /> <p style={{ marginTop: "0px" }}>concious living</p></p>
       
-          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 hover:scale-105 hover:shadow-md shadow-sm duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium mt-4 mb-8">Shop</button>
+          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 hover:scale-105 duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium mt-4 mb-8">Shop</button>
 
         </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
           <p style={{ fontSize: "12px" }} className="text-black font-normal w-80 text-center">Subscribe to our mailing list for exclusive offers and enjoy <span className="font-bold">10%</span> off your first order</p>
           <input className="w-80 sm:w-2/5 h-10 border-2 mt-4 border-gray-500 bg-gray-100 text-black text-center" placeholder="email" type="email" />
-          <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-6">Sign Up</button>
+          <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6">Sign Up</button>
         </div>
 
 
