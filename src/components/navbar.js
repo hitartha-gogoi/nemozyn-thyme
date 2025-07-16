@@ -10,21 +10,6 @@ import { MdMoreVert } from "react-icons/md";
 import { ReactTyped } from "react-typed";
 
 function Navbar({ textColor }) {
-  const [moreOpen, setMoreOpen] = useState(false);
-
-  const closeAllPopups = () => {
-    setMoreOpen(false);
-  };
-
-  useEffect(() => {
-    const handleOutsideClick = (e) => {
-      if (!e.target.closest(".popup-menu")) {
-        closeAllPopups();
-      }
-    };
-    window.addEventListener("click", handleOutsideClick);
-    return () => window.removeEventListener("click", handleOutsideClick);
-  }, []);
 
   return (
     <div className="z-[9998] w-full h-40 flex flex-col justify-between absolute top-0 left-0 bg-white">
@@ -40,14 +25,14 @@ function Navbar({ textColor }) {
       </div>
 
       {/* GRAY NAVBAR */}
-    <div className="flex items-center justify-between w-full h-20 my-2 bg-gray-200">
+    <div className="flex items-center justify-between w-full h-20 my-2 bg-[#f4f4f4]">
 
     {/* SHOP ORGANIC, JOURNAL, SUSTAINABILITY REPORT */}
     <div className="font-normal text-sm flex h-full items-center justify-center text-black">
       <MdMoreVert size={24} className="mobile-only-icon ml-4" />
-      <Link href="/"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm hidden"> Shop organic</span></Link>
-      <Link href="/"><span className="hidden sm:block hover:shadow-xl mx-4 banner-text">Journal</span></Link>
-      <Link href="/"><span className="hidden sm:block hover:shadow-xl mx-4 banner-text">Sustainibility report</span></Link>
+      <Link href="/dashboard"><span className="sm:block mx-4 banner-text text-xs sm:text-sm hidden"> Affiliate Dashboard</span></Link>
+      <Link href="/journal-landing"><span className="hidden sm:block mx-4 banner-text">Journal</span></Link>
+      <Link href="/affiliate-program"><span className="hidden sm:block  mx-4 banner-text">Affiliate Program</span></Link>
     </div>
 
       {/* SUMMER/SPRING TEXT */}
@@ -58,40 +43,12 @@ function Navbar({ textColor }) {
       {/* CART SALE ACCOUNT */}
       <div className="font-normal text-sm flex h-full items-center justify-center text-black">
       <Link href="/cart"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm">Cart [0]</span></Link>
-      <Link href="/"><span className="hidden sm:block hover:shadow-xl mx-4 banner-text text-red-500 text-xs sm:text-sm">Sale</span></Link>
-      <span onClick={(e) => { e.stopPropagation(); setMoreOpen(!moreOpen); }} className="hidden sm:block hover:shadow-xl mx-4 banner-text">Account</span>
+      <Link href="/"><span className="hidden sm:block mx-4 banner-text text-red-500 text-xs sm:text-sm">:Archived:</span></Link>
+      <Link href="/account" className="hidden sm:block  mx-4 banner-text">Account</Link>
     </div>
 
     </div>
       
-  
-      {/* More Popup */}
-      <AnimatePresence>
-        {moreOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-            className="popup-menu absolute left-[46%] -translate-x-1/2 top-full bg-white p-3 rounded-lg shadow-lg flex flex-col w-72"
-            style={{ marginTop: "8px", paddingTop: "8px" }}
-          >
-            <span className="flex items-center text-xs text-neutral-900 p-4 h-4 border-b-2 border-gray-200"></span>
-
-              <Link href={"/"} className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
-                <span className="font-extrabold uppercase">view profile</span>
-              </Link>
-
-              <Link href={"/"} className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
-                <span className="font-extrabold uppercase">orders</span>
-              </Link>
-          
-              <Link href={"/"} className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
-                <span className="font-extrabold uppercase">account settings</span>
-              </Link>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   );
 }
