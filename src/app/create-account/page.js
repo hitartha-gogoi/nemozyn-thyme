@@ -9,15 +9,17 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Leaf } from "react-icons/lu"; 
 import { useRouter } from "next/navigation";
+import OtpModal from "@/components/otp-modal";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 function CreateAccountPage() {
 
     const router = useRouter();
+    const [ isOpen, setIsOpen ] = useState(false);
 
     const createAccount = async(e) => {
         e.preventDefault();
-        router.push('/checkout-payment');
+        setIsOpen(true);
     }
 
   return (
@@ -53,7 +55,8 @@ function CreateAccountPage() {
         
         <p className="font-medium w-80 text-left sm:w-[26rem] flex space-x-2 items-start mt-10"><input type="checkbox" className="" />   <span  className="text-xs text-black">I have read and understood the privacy and agree to the Terms of Use</span></p>
         <p className="font-medium w-80 text-left sm:w-[26rem] flex space-x-2 items-start mt-2"><input type="checkbox" className="" />   <span  className="text-xs text-black">I would like to receive updates about Thyme's new activities, exclusive products, tailored services and to have a personalised client experience based on my interests.</span></p>
-        <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6 text-black">Register</button>
+        <button type='submit' className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6 text-black">Register</button>
+        <OtpModal open={isOpen} onClose={()=> setIsOpen(false)} />
 
         <p className=" text-sm font-medium uppercase text-black text-left sm:text-center mt-8 px-4 w-80 sm:w-[30rem] mb-40">The personal data collected above is processed by thyme to manage your order, optimize customer relations, for statistical and survey purposes and, subject to your consent above, to inform you of news and new products as well as provide updates to your order status</p>
         

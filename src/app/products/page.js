@@ -74,7 +74,7 @@ function AllProductsPage() {
       <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-10 py-20">
      <motion.div className="flex justify-center items-center relative w-full  sm:w-1/2 h-96 sm:h-[54rem] flex-shrink-0">
       <Image
-        src="/SUB09789.JPG"
+        src="/SUB09789.jpg"
         width={300}
         height={300}
         className="w-full h-full object-cover"
