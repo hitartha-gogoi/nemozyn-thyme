@@ -72,27 +72,23 @@ function AllProductsPage() {
       </div>
 
       <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-10 py-20">
-     <motion.div className="flex justify-center items-center relative w-88 sm:w-1/2 h-80 sm:h-[54rem] flex-shrink-0">
+     <motion.div className="flex justify-center items-center relative w-full  sm:w-1/2 h-96 sm:h-[54rem] flex-shrink-0">
       <Image
         src="/SUB09789.JPG"
         width={300}
         height={300}
-        className="w-full h-full object-contain sm:object-cover"
+        className="w-full h-full object-cover"
         alt="product"
       />
 
-      <motion.div
-        className="absolute top-2 right-2"
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-      >
-
-        <button className="px-10 py-4 text-center flex justify-center items-center  w-40 h-10 border border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white text-black hover:bg-black ">Bestseller</button>
+      <motion.div className="absolute top-2 right-2">
+        <button className="px-10 py-4 text-center flex justify-center items-center  w-40 h-10 border border-black self-center text-sm text-black ">Bestseller</button>
       </motion.div>
+      
     </motion.div>
 
 
-        <Image className="w-88 sm:w-1/2 h-80 sm:h-[54rem] object-contain sm:object-cover" src={"/SUB00268.jpg"} width={600} height={600} objectFit="contain" />
+        <Image className="w-88 sm:w-1/2 h-96 sm:h-[54rem] object-cover" src={"/SUB00268.jpg"} width={600} height={600} objectFit="contain" />
       </div>
 
       <p className="font-medium w-full text-center mt-8 text-xs text-black px-4">Certified organic essentials designed to be endure. Genderless and minimal.</p>
