@@ -38,7 +38,6 @@ export default function Home() {
           <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
           <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
           <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
-
         </div>
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
