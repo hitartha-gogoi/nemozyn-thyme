@@ -4,6 +4,8 @@ import Navbar from "@/components/navbar";
 import Banner from "@/components/banner"
 import Footer from "@/components/footer"
 import Cards from "@/components/cards";
+import { GoChevronRight } from "react-icons/go";
+import { GoChevronLeft } from "react-icons/go";
 import { FaBalanceScale, FaGavel, FaHandshake } from 'react-icons/fa'
 import { useState } from "react";
 import { useEffect } from "react";
@@ -24,12 +26,12 @@ export default function Home() {
       <Banner  />
    
         <div className="flex flex-col items-center justify-center text-center w-full pt-2 pb-4">
-          <p style={{ fontSize: "12px" }} className="text-black font-medium mt-10 overused-grotesk-medium">
+          <p style={{ fontSize: "12px" }} className="text-black font-medium mt-10 overused-grotesk-semibold">
             Designed in Seoul, South Korea, made for India
           </p>
-          <p style={{ fontSize: "12px", marginTop: "0px"  }} className="text-black font-medium overused-grotesk-medium">Modern minimalist silhouettes --- crafted for those who value simplicity, elegance, and <br /> <p style={{ marginTop: "0px" }}>concious living</p></p>
+          <p style={{ fontSize: "12px"  }} className="text-black relative leading-tight font-medium overused-grotesk-semibold">Modern minimalist silhouettes --- crafted for those who value simplicity, elegance, and concious living</p>
       
-          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 hover:scale-105 duration-200 ease-in-out transition-all hover:bg-black hover:text-white border-black border-2 font-medium mt-4 mb-8">Shop</button>
+          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 border-black border font-medium mt-4 mb-8">Shop</button>
 
         </div>
 
@@ -41,8 +43,8 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-          <h1 className="text-center uppercase font-medium text-base sm:text-xl">new arrivals</h1>
-          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96"><FaChevronLeft size={24} /> shop from the latest drops, handpicked weekly <FaChevronRight size={24} /></p>
+          <h1 style={{ fontSize: "12px" }} className="text-center uppercase font-medium overused-grotesk-semibold ">new arrivals</h1>
+          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-24"><GoChevronLeft color="black" size={18} /> <GoChevronRight color="black" size={18} /></p>
           <Cards />
         </div>
 
@@ -59,7 +61,7 @@ export default function Home() {
               <p style={{ fontSize: "8px" }} className="">Maria L.</p>
               <p style={{ fontSize: "10px" }} className=" ">July 2025</p>
               <p className="text-xs">Best organic product ever!</p>
-              <p className="text-xs text-[#DCE2C8]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
+              <p className="text-xs text-[#DCE2C8] overused-grotesk-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
 
             </div>
             <button className="bg-[#284123] text-white py-2 text-xs px-4 border border-white">write a review</button>
@@ -80,7 +82,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
           <h1 className="text-center uppercase font-medium text-lg sm:text-xl">bestsellers</h1>
-          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96"><FaChevronLeft size={24} /> shop from this week's bestsellers, curated for you <FaChevronRight size={24} /></p>
+          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96"><GoChevronLeft size={18} /> shop from this week's bestsellers, curated for you <GoChevronRight color='black' size={18} /></p>
           <Cards />
         </div>
 

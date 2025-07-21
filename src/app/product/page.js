@@ -37,9 +37,9 @@ function ProductPage() {
             <p className="text-gray-900 text-xs sm:text-xs font-normal">Drop Shoulder, dropped half tshirt in  100% GOTS, OEKO-TEX and Fair Trade certified jersey cotton. Open spread collar with pocket. Inside out stich detailing and fitted with Brazillian ebony  woods button</p>
 
             <p style={{ fontSize: "8px "}} className="text-right text-sm font-medium w-full text-black underline  mt-6">Size Guide</p>
-            <button style={{ fontSize: "12px "}} className="px-10 text-gray-900 py-4 text-center flex justify-center items-center w-full h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">Select Size</button>
+            <button style={{ fontSize: "12px "}} className="px-10 text-gray-900 py-4 text-center flex justify-center items-center w-full h-10 border border-black self-center text-sm hover:text-white hover:bg-black">Select Size</button>
             <p style={{ fontSize: "8px "}} className="text-right text-xs w-full text-gray-800">Free Delivery and Easy Returns</p>
-            <button style={{ fontSize: "12px "}} className="px-10 text-gray-900 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2">Add to Cart</button>
+            <button style={{ fontSize: "12px "}} className="px-10 text-gray-900 py-4 text-center flex justify-center items-center w-60 h-10 border border-black self-center hover:text-white hover:bg-black mt-2">Add to Cart</button>
 
             <p style={{ fontSize: "8px "}} className="text-black font-semibold text-lg mt-12">[Limited Release : 60 pieces | 18 in stock]</p>
 

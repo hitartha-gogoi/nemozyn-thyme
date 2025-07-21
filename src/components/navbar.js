@@ -16,35 +16,35 @@ function Navbar({ textColor }) {
 
       {/* GREEN NAVBAR */}
       <div className="flex items-center justify-center h-6 px-4 bg-[#284123] w-full ">
-        <span className="text-center text-[#DCE2C8] font-light text-xs sm:text-sm overused-grotesk-medium">Nemozyn is now Thyme | Explore our new arrivals</span>
+        <span style={{ fontSize: "9px" }} className="text-center text-[#DCE2C8] font-light sm:text-sm overused-grotesk-medium">Nemozyn is now Thyme | Explore our new arrivals</span>
       </div>
 
       {/* THYME */}
-      <div className="flex items-center justify-center my-2 w-full h-12 px-4 bg-white">
-        <Link href="/"><Image src={'/Logo.png'} className="h-20 w-52" width={300} height={300} objectFit="contain" /></Link>
+      <div className="flex flex-col items-center justify-center my-2 w-full h-16 px-4 bg-white">
+        <Link href="/"><Image src={'/Logo.png'} className="h-16 w-44" width={300} height={300} objectFit="contain" /></Link>
       </div>
 
       {/* GRAY NAVBAR */}
-    <div className="flex items-center justify-between w-full h-20 my-2 bg-[#f4f4f4]">
+    <div className="flex items-center justify-between w-full h-20 my-0 bg-[#f4f4f4]">
 
     {/* SHOP ORGANIC, JOURNAL, SUSTAINABILITY REPORT */}
     <div className="font-normal text-sm flex h-full items-center justify-center text-black">
       <MdMoreVert size={24} className="mobile-only-icon ml-4" />
-      <Link href="/dashboard"><span className="sm:block mx-4 banner-text text-xs sm:text-sm hidden"> Affiliate Dashboard</span></Link>
-      <Link href="/journal-landing"><span className="hidden sm:block mx-4 banner-text">Journal</span></Link>
-      <Link href="/affiliate-program"><span className="hidden sm:block  mx-4 banner-text">Affiliate Program</span></Link>
+      <Link href="/shop-organic"><span className="sm:block mx-4 banner-text text-xs sm:text-sm hidden overused-grotesk-semibold">Shop Organic</span></Link>
+      <Link href="/journal-landing"><span className="hidden sm:block mx-4 banner-text overused-grotesk-semibold">Philosophy</span></Link>
+      <Link href="/affiliate-program"><span className="hidden sm:block  mx-4 banner-text overused-grotesk-semibold">Journal</span></Link>
     </div>
 
       {/* SUMMER/SPRING TEXT */}
       <div className={`flex flex-row justify-center items-center sm:px-10 px-2 ml-4 sm:mr-28 text-base uppercase text-${textColor}`}>
-        <span className="banner-text font-semibold text-black text-center uppercase text-xs sm:text-sm">summer/spring 25</span>
+        <span style={{ fontWeight: "500" }} className="overused-grotesk-semibold text-black text-center uppercase text-xs sm:text-sm">summer/spring 25</span>
       </div>
 
       {/* CART SALE ACCOUNT */}
       <div className="font-normal text-sm flex h-full items-center justify-center text-black">
-      <Link href="/cart"><span className="sm:block hover:shadow-xl mx-4 banner-text text-xs sm:text-sm">Cart [0]</span></Link>
-      <Link href="/"><span className="hidden sm:block mx-4 banner-text text-red-500 text-xs sm:text-sm">:Archived:</span></Link>
-      <Link href="/account" className="hidden sm:block  mx-4 banner-text">Account</Link>
+      <Link href="/cart"><span className="sm:block  mx-4 banner-text overused-grotesk-semibold sm:text-sm">Cart [0]</span></Link>
+      <Link href="/"><span className="hidden sm:block mx-4 banner-text text overused-grotesk-semibold text-[#B62013] text-xs sm:text-sm">:Archived:</span></Link>
+      <Link href="/account" className="hidden sm:block  mx-4 banner-text overused-grotesk-semibold">Account</Link>
     </div>
 
     </div>

@@ -16,7 +16,7 @@ function Banner(){
           alt="Background Image"
           layout="fill"
           objectPosition="center"
-          objectFit="contain"
+          objectFit="cover"
           className="opacity-90 absolute top-0 left-0 pt-36 sm:pt-0"
         />  
         </div>
