@@ -90,6 +90,7 @@ input {
 
 input[type="search"] {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .mobile-only-icon {
