@@ -11,7 +11,7 @@ import { Leaf } from "react-icons/lu";
 import { useRouter } from "next/navigation";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-function Page() {
+function CheckoutPage() {
 
     const router = useRouter();
     const onCheckout = async(e) => {
@@ -76,4 +76,4 @@ function Page() {
   )
 }
 
-export default Page;
+export default CheckoutPage;

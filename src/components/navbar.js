@@ -25,7 +25,7 @@ function Navbar({ textColor }) {
       </div>
 
       {/* GRAY NAVBAR */}
-    <div className="flex items-center justify-between w-full h-20 my-0 bg-[#f4f4f4]">
+    <div className="relative flex items-center justify-between w-full h-20 my-0 bg-[#f4f4f4]">
 
     {/* SHOP ORGANIC, JOURNAL, SUSTAINABILITY REPORT */}
     <div className="font-normal text-sm flex h-full items-center justify-center text-black">
@@ -36,7 +36,7 @@ function Navbar({ textColor }) {
     </div>
 
       {/* SUMMER/SPRING TEXT */}
-      <div className={`flex flex-row justify-center items-center sm:px-10 px-2 ml-4 sm:mr-28 text-base uppercase text-${textColor}`}>
+      <div className={`absolute inset-0 flex flex-row justify-center items-center text-base uppercase text-${textColor}`}>
         <span style={{ fontWeight: "500" }} className="overused-grotesk-semibold text-black text-center uppercase text-xs sm:text-sm">summer/spring 25</span>
       </div>
 
