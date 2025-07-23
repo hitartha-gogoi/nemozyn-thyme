@@ -84,6 +84,14 @@ body {
   font-weight: 500;
 }
 
+input {
+  border-radius: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
 .mobile-only-icon {
   display: none;
 }
