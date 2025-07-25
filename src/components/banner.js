@@ -10,7 +10,7 @@ function Banner(){
       {/* Background div */}
 
       {/* bring the image to top */}
-      <div className="absolute inset-0 z-0 h-72 sm:h-[32rem] w-full" >
+      <div className="absolute inset-0 z-0 h-72 sm:h-[36rem] w-full" >
         <Image
           src="/landing-image.png"
           alt="Background Image"

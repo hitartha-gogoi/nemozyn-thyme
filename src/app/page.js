@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-          <h1 style={{ fontSize: "12px" }} className="text-center uppercase font-medium overused-grotesk-semibold ">new arrivals</h1>
+          <h1 style={{ fontSize: "12px" }} className="text-center uppercase  overused-grotesk-semibold ">new arrivals</h1>
           <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-24"><GoChevronLeft color="black" size={18} /> <GoChevronRight color="black" size={18} /></p>
           <Cards />
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
 
 
-          <div className="h-96 w-full sm:w-1/2 flex flex-col justify-center items-start p-10 bg-[#DCE2C8] text-black">
+          <div className="h-96 w-full sm:w-1/2 flex flex-col justify-center items-start p-10 bg-[#ffffff] text-black">
            
             <div className="text-left text-sm font-normal">
               <p className="text-4xl text-[#284123] w-16">Radcially <span className="underline pb-4">Clean™</span></p>
@@ -81,15 +81,15 @@ export default function Home() {
 
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-          <h1 className="text-center uppercase font-medium text-lg sm:text-xl">bestsellers</h1>
-          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96"><GoChevronLeft size={18} /> shop from this week's bestsellers, curated for you <GoChevronRight color='black' size={18} /></p>
+          <h1 className="text-center uppercase  overused-grotesk-semibold  text-xs">bestsellers</h1>
+          <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-24"><GoChevronLeft color='black' size={18} />  <GoChevronRight color='black' size={18} /></p>
           <Cards />
         </div>
 
         <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-          <p style={{ fontSize: "12px" }} className="text-black font-normal w-80 text-center">Subscribe to our mailing list for exclusive offers and enjoy <span className="font-bold">10%</span> off your first order</p>
-          <input className="w-80 sm:w-2/5 h-10 border-2 mt-4 border-gray-500 bg-gray-100 text-black text-center" placeholder="email" type="email" />
-          <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6">Sign Up</button>
+          <p style={{ fontSize: "12px" }} className="text-black font-normal w-80 text-center overused-grotesk-semibold">Subscribe to our mailing list for exclusive offers and enjoy <span className="font-bold">10%</span> off your first order</p>
+          <input className="w-80 sm:w-2/5 h-10 border mt-4 border-black bg-gray-100 text-black text-center" placeholder="Email" type="email" />
+          <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-8 border border-black self-center text-sm mt-2">Sign Up</button>
         </div>
 
 

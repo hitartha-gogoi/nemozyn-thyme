@@ -34,7 +34,7 @@ function CartPage() {
                         <h1 className="text-black self-start font-medium text-xs sm:text-xs uppercase">seoul serenity</h1>
                         <p className="text-black text-xs">Size: M</p>
                     </div>
-                    <p className="text-gray-500 text-xs underline">remove</p>
+                    <p className="text-gray-500 text-xs underline">Remove</p>
                 </div>
             </div>
 
@@ -47,9 +47,9 @@ function CartPage() {
             <div className="flex flex-col items-start justify-between h-40">
                 {/* CREATE A BUTTON OF THREE IN DIV FLEX ROW LIKE + QUANTITY AND - LIKE IN ADD TO CART */}
                 <div className="flex flex-row justify-center items-center border-gray-700 border">
-                <button style={{ fontSize: "12px "}} className="px-4 text-gray-900 py-2 text-center flex justify-center items-center w-8 h-4 sm:w-16 sm:h-8 self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">+</button>
-                <p className="text-black bg-gray-100 w-8 h-4 sm:w-16 sm:h-8 font-semibold text-xs text-center flex justify-center items-center">1</p>
                 <button style={{ fontSize: "12px "}} className="px-4 text-gray-900 py-2 text-center flex justify-center items-center w-8 h-4 sm:w-16 sm:h-8 self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">-</button>
+                <p className="text-black bg-gray-100 w-8 h-4 sm:w-16 sm:h-8 font-semibold text-xs text-center flex justify-center items-center">1</p>
+                <button style={{ fontSize: "12px "}} className="px-4 text-gray-900 py-2 text-center flex justify-center items-center w-8 h-4 sm:w-16 sm:h-8 self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">+</button>
                 </div>
                 <p className="text-black font-semibold text-xs">Total: $2299</p>
             </div>
@@ -75,7 +75,7 @@ function CartPage() {
                             <option value="XL">XL</option>
                             <option value="XXL">XXL</option>
                         </select>
-                        <p className="text-gray-500 text-xs underline mt-2">remove</p>
+                        <p className="text-gray-500 text-xs underline mt-2">Remove</p>
 
                     </div>
                     
@@ -91,9 +91,9 @@ function CartPage() {
             <div className="flex flex-col items-start justify-between h-40">
                 {/* CREATE A BUTTON OF THREE IN DIV FLEX ROW LIKE + QUANTITY AND - LIKE IN ADD TO CART */}
                 <div className="flex flex-row justify-center items-center border-gray-700 border">
-                <button style={{ fontSize: "12px "}} className="px-4 text-gray-900 py-2 text-center flex justify-center items-center w-8 h-4 sm:w-16 sm:h-8 self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">+</button>
-                <p className="text-black bg-gray-100 w-8 h-4 sm:w-16 sm:h-8 font-semibold text-xs  text-center flex justify-center items-center">1</p>
                 <button style={{ fontSize: "12px "}} className="px-4 text-gray-900 py-2 text-center flex justify-center items-center w-8 h-4 sm:w-16 sm:h-8 self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">-</button>
+                <p className="text-black bg-gray-100 w-8 h-4 sm:w-16 sm:h-8 font-semibold text-xs  text-center flex justify-center items-center">1</p>
+                <button style={{ fontSize: "12px "}} className="px-4 text-gray-900 py-2 text-center flex justify-center items-center w-8 h-4 sm:w-16 sm:h-8 self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black">+</button>
                 </div>
                 <p className="text-black font-semibold text-xs">Total: $2299</p>
             </div>

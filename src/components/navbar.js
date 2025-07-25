@@ -20,7 +20,7 @@ function Navbar({ textColor }) {
       </div>
 
       {/* THYME */}
-      <div className="flex flex-col items-center justify-center my-2 w-full h-16 px-4 bg-white">
+      <div className="flex flex-col items-center justify-center w-full h-16 px-4 bg-white">
         <Link href="/"><Image src={'/Logo.png'} className="h-16 w-44" width={300} height={300} objectFit="contain" /></Link>
       </div>
 
