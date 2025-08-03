@@ -35,15 +35,15 @@ function CheckoutPage() {
         <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-12 overused-grotesk-semibold">delivery</h1>
         <input type="text" placeholder="Country/Region" className="px-6 border-2 scale-95 text-black focus:border-black border-black p-2 w-80 sm:w-[28rem] mb-2" />
         {/* create input for first name and last name in one line with the same styling but adjusting the width in one line */}
-        <div className="flex flex-row items-center justify-center space-x-2 w-80 sm:w-[28rem]">
-          <input type="text" placeholder="First Name" className="px-6 border-2  text-black focus:border-black border-black p-2 w-36 sm:w-[13rem] mb-2" />
-          <input type="text" placeholder="Last Name" className="px-6 border-2  text-black focus:border-black border-black py-2 w-36 sm:w-[14.3rem] mb-2" />
+        <div className="flex flex-row items-center justify-center w-80 sm:w-[28rem]">
+          <input type="text" placeholder="First Name" className="px-6 border-2 text-black focus:border-black border-black p-2 w-36 sm:w-[13rem] mb-2 mr-2 sm:mr-0 sm:scale-95" />
+          <input type="text" placeholder="Last Name" className="px-6 border-2 text-black focus:border-black border-black p-2 w-36 sm:w-[14.3rem] mb-2 ml-2 sm:ml-0 sm:scale-95" />
         </div>
         <input type="text" placeholder="Address" className="px-6 border-2 scale-95 text-black focus:border-black border-black p-2 w-80 sm:w-[28rem] mb-2" />
         <input type="text" placeholder="Apartment,Suite, etc. (Optional)" className="px-6 border-2 scale-95 text-black focus:border-black border-black p-2 w-80 sm:w-[28rem] mb-2" />
         <div className="flex flex-row items-center justify-center w-80 sm:w-[28rem]">
-          <input type="text" placeholder="Zipcode" className="px-6 border-2 scale-95 text-black focus:border-black border-black p-2 w-40 sm:w-[13rem] mb-2" />
-          <input type="text" placeholder="City" className="px-6 border-2 scale-95 text-black focus:border-black border-black p-2 w-40 sm:w-[14.3rem] mb-2" />
+          <input type="text" placeholder="Zipcode" className="px-6 border-2 text-black focus:border-black border-black p-2 w-36 sm:w-[13rem] mb-2 mr-2 sm:mr-0 sm:scale-95" />
+          <input type="text" placeholder="City" className="px-6 border-2 text-black focus:border-black border-black p-2 w-36 sm:w-[14.3rem] mb-2 ml-2 sm:ml-0 sm:scale-95" />
         </div>
         <input type="text" placeholder="State" className="px-6 border-2 scale-95 text-black focus:border-black border-black p-2 w-80 sm:w-[28rem] mb-2" />
 
