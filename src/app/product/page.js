@@ -119,8 +119,8 @@ function ProductPage() {
 
 
       <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
-        <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-medium ">new arrivals</h1>
-        <p style={{ fontSize: "12px "}} className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96 mb-4"><FaChevronLeft className="text-black" size={24} /> shop from the latest drops, handpicked weekly <FaChevronRight className="text-black" size={24} /></p>
+        <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-medium overused-grotesk-semibold ">new arrivals</h1>
+        <p style={{ fontSize: "12px "}} className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-96 mb-4 overused-grotesk-medium "><FaChevronLeft className="text-black" size={24} /> shop from the latest drops, handpicked weekly <FaChevronRight className="text-black" size={24} /></p>
         <Cards />
       </div>
 

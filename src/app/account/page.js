@@ -20,14 +20,14 @@ function AccountPage() {
     <div className='relative flex flex-col items-center justify-center w-full bg-white overflow-x-hidden pt-20 pb-40'>
       <Navbar />
 
-      <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-black mt-32">account</h1>
+      <h1 style={{ fontSize: "12px "}} className="overused-grotesk-semibold text-center uppercase font-semibold text-black mt-32">account</h1>
 
-      <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-black mt-6">sarasu roy</h1>
-      <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-black ">sarasuroy@gmail.com</h1>
+      <h1 style={{ fontSize: "12px "}} className="overused-grotesk-semibold text-center uppercase font-semibold text-black mt-6">sarasu roy</h1>
+      <h1 style={{ fontSize: "12px "}} className="overused-grotesk-semibold text-center uppercase font-semibold text-black ">sarasuroy@gmail.com</h1>
 
 
      {/* CART SECTION */}
-      <div className="flex flex-col justify-start items-start border-y border-gray-500 w-full sm:w-4/5 mt-10 p-4">
+      <div className="overused-grotesk-semibold flex flex-col justify-start items-start border-y border-gray-500 w-full sm:w-4/5 mt-10 p-4">
        <div className="flex flex-row justify-between w-full">
          <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-gray-600">in your cart</h1>
          <input type="radio" disabled />
@@ -41,7 +41,7 @@ function AccountPage() {
       
 
       {/* ORDER HISTORY */}
-      <div className="flex flex-col justify-start items-start border-b border-gray-500 w-full sm:w-4/5  p-4">
+      <div className="overused-grotesk-semibold flex flex-col justify-start items-start border-b border-gray-500 w-full sm:w-4/5  p-4">
        <div className="flex flex-row justify-between w-full">
          <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-gray-600">order history</h1>
          <input type="radio" disabled />
@@ -71,7 +71,7 @@ function AccountPage() {
       </div>
 
       {/* MANAGE PROFILE */}
-      <div className="flex flex-col justify-start items-start border-b border-gray-500 w-full sm:w-4/5  p-4">
+      <div className="overused-grotesk-semibold flex flex-col justify-start items-start border-b border-gray-500 w-full sm:w-4/5  p-4">
        <div className="flex flex-row justify-between w-full">
          <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-gray-600">manage profile</h1>
          <input type="radio" disabled />
@@ -85,7 +85,7 @@ function AccountPage() {
       </div>
 
       {/* MANAGE PROFILE */}
-      <div className="flex flex-col justify-start items-start border-b border-gray-500 w-full sm:w-4/5  p-4">
+      <div className="overused-grotesk-semibold flex flex-col justify-start items-start border-b border-gray-500 w-full sm:w-4/5  p-4">
        <div className="flex flex-row justify-between w-full">
          <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-gray-600">thyme affiliates</h1>
          <FaChevronRight size={24} className="text-gray-500" />

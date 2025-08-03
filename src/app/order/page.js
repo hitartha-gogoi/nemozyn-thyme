@@ -23,40 +23,40 @@ function OrderPage() {
     <div className='relative flex flex-col items-center justify-center w-full bg-white overflow-x-hidden pt-20'>
       <Navbar />
 
-      <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-40">order details</h1>
+      <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-40 overused-grotesk-semibold">order details</h1>
 
-      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-8">order #3336</h1>
-      <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-black leading-tight">21.10.26</h1>
+      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-8 overused-grotesk-semibold">order #3336</h1>
+      <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-semibold text-black leading-tight overused-grotesk-semibold">21.10.26</h1>
 
-      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-6">Delivery address</h1>
+      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-6 overused-grotesk-semibold">Delivery address</h1>
 
         <div className="flex flex-col mt-6">
-        <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-medium text-black">first name, last name</h1>
-        <h1 style={{ fontSize: "12px "}} className="text-center font-medium text-black uppercase"> street address, state</h1>
-        <p style={{ fontSize: "12px "}} className="text-center font-medium text-black uppercase">zipcode</p>
+        <h1 style={{ fontSize: "12px "}} className="text-center uppercase font-medium text-black overused-grotesk-semibold">first name, last name</h1>
+        <h1 style={{ fontSize: "12px "}} className="text-center font-medium text-black uppercase overused-grotesk-semibold"> street address, state</h1>
+        <p style={{ fontSize: "12px "}} className="text-center font-medium text-black uppercase overused-grotesk-semibold">zipcode</p>
 
-        <p style={{ fontSize: "12px "}} className="text-center font-medium text-black uppercase my-4">contact no.</p>
+        <p style={{ fontSize: "12px "}} className="text-center font-medium text-black uppercase my-4 overused-grotesk-semibold">contact no.</p>
         </div>
 
 
-        <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-14">order status</h1>
+        <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-14 overused-grotesk-semibold">order status</h1>
 
         <div className="flex flex-col items-start justify-center mt-10 w-44 text-base">
             <div className="flex flex-row justify-start items-center space-x-4">
                 <input className="text-black bg-black" type="radio" value={"received"} />
-                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase">received [21.10.26]</span>
+                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase overused-grotesk-semibold">received [21.10.26]</span>
             </div>
             <div className="flex flex-row justify-start items-center space-x-4">
                 <input type="radio" value={"received"} />
-                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase">processed</span>
+                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase overused-grotesk-semibold">processed</span>
             </div>
             <div className="flex flex-row justify-start items-center space-x-4">
                 <input type="radio" value={"received"} />
-                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase">dispatched</span>
+                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase overused-grotesk-semibold">dispatched</span>
             </div>
             <div className="flex flex-row justify-start items-center space-x-4">
                 <input type="radio" value={"received"} />
-                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase">delivered</span>
+                <span className="text-gray-600 font-medium overused-grotesk-semibold uppercase overused-grotesk-semibold">delivered</span>
             </div>
 
         </div>
@@ -75,22 +75,22 @@ function OrderPage() {
                              <Image src={`/tshirt-1.jpg`} alt="product image" className="h-40 w-28" height={600} width={600} objectFit="cover" />
                              <div className="flex flex-col items-start h-40 justify-between">
                                  <div className="flex flex-col items-start ">
-                                     <h1 className="text-black self-start font-medium text-xs sm:text-xs uppercase">seoul serenity</h1>
-                                     <p className="text-black text-xs">Size: M</p>
+                                     <h1 className="text-black self-start font-medium text-xs sm:text-xs uppercase overused-grotesk-semibold">seoul serenity</h1>
+                                     <p className="text-black text-xs overused-grotesk-medium">Size: M</p>
                                  </div>
-                                 <p className="text-xs text-black font-medium">Quantity: 2</p>
+                                 <p className="text-xs text-black font-medium overused-grotesk-medium">Quantity: 2</p>
                              </div>
                          </div>
              
                          {/* MIDDLE PRICING SECTION OF PRODUCT */}
                          <div className="flex flex-col items-start justify-start h-40">
-                             <p className="hidden sm:block text-black font-semibold text-xs">$2299</p>
+                             <p className="hidden sm:block text-black font-semibold text-xs overused-grotesk-semibold">$2299</p>
                          </div>
              
                          {/* RIGHT SECTION OF PRODUCT */}
                          <div className="flex flex-col items-start justify-start h-40">
-                            <button className="px-6 py-4 text-center flex justify-center items-center w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Cancel</button>
-                            <button className="px-6 py-4 text-center flex justify-center items-center w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Return</button>
+                            <button className="px-6 py-4 text-center overused-grotesk-semibold flex justify-center items-center w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Cancel</button>
+                            <button className="px-6 py-4 text-center overused-grotesk-semibold flex justify-center items-center w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Return</button>
                          </div>
              
                      </div>
@@ -103,11 +103,11 @@ function OrderPage() {
                              <Image src={`/tshirt-1.jpg`} alt="product image" className="h-40 w-28" height={600} width={600} objectFit="cover" />
                              <div className="flex flex-col items-start h-40 justify-between">
                                  <div className="flex flex-col items-start ">
-                                     <h1 className="text-black font-medium text-xs sm:text-xs uppercase">seoul serenity</h1>
-                                     <p className="text-black text-xs">Size: M</p>
+                                     <h1 className="text-black font-medium text-xs sm:text-xs uppercase overused-grotesk-semibold">seoul serenity</h1>
+                                     <p className="text-black text-xs overused-grotesk-medium">Size: M</p>
                                  </div>
                                  <div className="flex flex-col items-start ">
-                                    <p className="text-xs text-black font-medium  mt-2">Quantity: 1</p>
+                                    <p className="text-xs text-black font-medium  mt-2 overused-grotesk-medium">Quantity: 1</p>
                                  </div>
                                  
                              </div>
@@ -115,13 +115,13 @@ function OrderPage() {
              
                          {/* MIDDLE PRICING SECTION OF PRODUCT */}
                          <div className="flex flex-col items-start justify-start h-40">
-                             <p className="hidden sm:block text-black font-semibold text-xs">$2299</p>
+                             <p className="hidden sm:block text-black font-semibold text-xs overused-grotesk-semibold">$2299</p>
                          </div>
              
                          {/* RIGHT SECTION OF PRODUCT */}
                          <div className="flex flex-col items-start justify-start h-40">
-                            <button className="px-6 py-4 text-center flex justify-center items-center w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Cancel</button>
-                            <button className="px-6 py-4 text-center flex justify-center items-center w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Return</button>
+                            <button className="px-6 py-4 text-center flex justify-center items-center overused-grotesk-semibold w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Cancel</button>
+                            <button className="px-6 py-4 text-center flex justify-center items-center overused-grotesk-semibold w-24 sm:w-28 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Return</button>
                          </div>
                           
                      </div>
@@ -129,16 +129,16 @@ function OrderPage() {
                    </div>
 
 
-                   <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black mt-12">Total: $3299 [Inclusive of all taxes]</h1>
-                   <p style={{ fontSize: "13px "}} className="text-center font-semibold text-black ">Free Shipping</p>
+                   <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black mt-12 overused-grotesk-semibold">Total: $3299 [Inclusive of all taxes]</h1>
+                   <p style={{ fontSize: "13px "}} className="text-center font-semibold text-black overused-grotesk-semibold">Free Shipping</p>
  
 
                    <div className="flex flex-col items-start justify-start pb-2 mt-4">
-                    <button className="px-6 py-4 text-center flex justify-center items-center w-40 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Cancel Order</button>
-                    <button className="px-6 py-4 text-center flex justify-center items-center w-40 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 ">Invoice</button>
+                    <button className="px-6 py-4 text-center flex justify-center items-center w-40 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 overused-grotesk-semibold">Cancel Order</button>
+                    <button className="px-6 py-4 text-center flex justify-center items-center w-40 h-8 border-2 border-black self-center text-black text-xs font-medium hover:scale-105 duration-200 ease-in-out transition-all hover:shadow-md shadow-sm hover:text-white hover:bg-black mt-2 overused-grotesk-semibold">Invoice</button>
                    </div>
 
-                   <h1 style={{ fontSize: "12px "}} className="text-center font-medium text-black">All data is kept secured. Payment data is encrypted.</h1>
+                   <h1 style={{ fontSize: "12px "}} className="text-center font-medium text-black overused-grotesk-medium">All data is kept secured. Payment data is encrypted.</h1>
 
 
       <Footer />

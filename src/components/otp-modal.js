@@ -54,8 +54,8 @@ export default function OtpModal({ open, onClose }) {
               ✕
             </button>
 
-            <h2 className="text-lg font-semibold uppercase tracking-wider">VERIFY OTP</h2>
-            <p className="text-sm mt-2 mb-6">
+            <h2 className="text-lg font-semibold uppercase tracking-wider  overused-grotesk-semibold">VERIFY OTP</h2>
+            <p className="text-sm mt-2 mb-6  overused-grotesk-medium">
               We’ve sent a 6-digit code to your phone/email. Please enter it below to continue.
             </p>
 
@@ -67,24 +67,24 @@ export default function OtpModal({ open, onClose }) {
             />
 
             {/* Continue Button */}
-            <button onClick={onClose} className="mt-6 border border-black px-6 py-2 uppercase text-xs font-bold hover:bg-black hover:text-white transition">
+            <button onClick={onClose} className="mt-6  overused-grotesk-semibold border border-black px-6 py-2 uppercase text-xs font-bold hover:bg-black hover:text-white transition">
               Continue
             </button>
 
             {/* Resend Section */}
-            <div className="mt-6 text-sm text-gray-500">
+            <div className="mt-6 text-sm text-gray-500  overused-grotesk-medium">
               <p>Didn't receive the code?</p>
               <motion.div className="text-sm text-gray-600 mt-4">
       {resendVisible ? (
         <motion.button
           whileTap={{ scale: 0.95 }}
           onClick={handleResend}
-          className="text-blue-600 font-semibold hover:underline"
+          className="text-blue-600 font-semibold hover:underline  overused-grotesk-semibold"
         >
           Resend Code
         </motion.button>
       ) : (
-        <span>Resend in {timer}s</span>
+        <span className=" overused-grotesk-semibold">Resend in {timer}s</span>
       )}
     </motion.div>
             </div>

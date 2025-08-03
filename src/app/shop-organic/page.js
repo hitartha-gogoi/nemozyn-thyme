@@ -19,61 +19,61 @@ function AffiliateDashboardPage() {
     <div className='relative flex flex-col items-center justify-center w-full bg-white overflow-x-hidden py-20'>
       <Navbar />
 
-      <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-32">Thyme affiliates</h1>
-      <p style={{ fontSize: "12px" }} className="banner-text text-sm font-medium text-black text-left sm:text-center px-4 mt-6">Stay in control of your partnership with Thyme. Track earnings and purchases made.</p>
+      <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-32 overused-grotesk-semibold">Thyme affiliates</h1>
+      <p style={{ fontSize: "12px" }} className="banner-text text-sm font-medium text-black text-left sm:text-center px-4 mt-6 overused-grotesk-semibold">Stay in control of your partnership with Thyme. Track earnings and purchases made.</p>
 
-      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-12">sarasu roy</h1>
-      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black ">affiliates id: thyme06</h1>
-      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black ">affiliates code: sarasijthyme</h1>
+      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-12 overused-grotesk-semibold">sarasu roy</h1>
+      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">affiliates id: thyme06</h1>
+      <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">affiliates code: sarasijthyme</h1>
 
       <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-4 flex-wrap text-black">
-        <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6">Check Fee Structure</button>
-        <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6">Affiliate Policies</button>
+        <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6 overused-grotesk-semibold">Check Fee Structure</button>
+        <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-10 border-2 border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-6 overused-grotesk-semibold">Affiliate Policies</button>
       </div>
 
-      <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-16">earning summary</h1>
+      <h1 style={{ fontSize: "15px "}} className="text-center uppercase font-semibold text-black mt-16 overused-grotesk-semibold">earning summary</h1>
 
       <div className="flex flex-col sm:flex-row justify-center items-center flex-wrap sm:space-x-12 space-y-6 sm:space-y-0 space-x-0 pt-8">
         <div className="flex flex-col justify-center items-center px-4">
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black ">Total earnings</h1>
-          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black">[June 2024-July 2025]</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4">66000</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black">inr</h1> 
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">Total earnings</h1>
+          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black overused-grotesk-semibold">[June 2024-July 2025]</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4 overused-grotesk-semibold">66000</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">inr</h1> 
         </div>
 
         <div className="flex flex-col justify-center items-center px-4">
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black ">earnings this month</h1>
-          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black">[July 2025]</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4">7000</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black">inr</h1> 
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">earnings this month</h1>
+          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black overused-grotesk-semibold">[July 2025]</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4 overused-grotesk-semibold">7000</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">inr</h1>
         </div>
 
         <div className="flex flex-col justify-center items-center px-4">
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black ">total orders</h1>
-          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black">[June 2024-July 2025]</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4">200</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">total orders</h1>
+          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black overused-grotesk-semibold">[June 2024-July 2025]</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold mt-4">200</h1>
           <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4"></h1>
         </div>
 
         <div className="flex flex-col justify-center items-center px-4">
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black ">orders this month</h1>
-          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black">[July 2025]</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4">70</h1>
-          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4"></h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black overused-grotesk-semibold">orders this month</h1>
+          <h1 style={{ fontSize: "13px "}} className="text-center font-semibold text-black overused-grotesk-semibold">[July 2025]</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4 overused-grotesk-semibold">70</h1>
+          <h1 style={{ fontSize: "14px "}} className="text-center uppercase font-semibold text-black mt-4 overused-grotesk-semibold"></h1>
         </div>
       </div>
 
       <button className="px-10 text-black py-4 text-center flex justify-center items-center w-80 sm:w-96 h-10 border-2 uppercase font-medium border-black self-center text-sm hover:scale-105 duration-200 ease-in-out transition-all  hover:text-white hover:bg-black mt-20">search</button>
 
       <div className="flex flex-row justify-start items-start pt-4 mt-8">
-        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase text-black">all orders</span>
-        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase text-gray-600 border-x-2 border-gray-600">pending</span>
-        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase border-r-2 border-gray-600 text-gray-600">cancelled</span>
-        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase text-gray-600 sm:block hidden">returned</span>
+        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase text-black overused-grotesk-semibold">all orders</span>
+        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase text-gray-600 border-x-2 border-gray-600 overused-grotesk-semibold">pending</span>
+        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase border-r-2 border-gray-600 text-gray-600 overused-grotesk-semibold">cancelled</span>
+        <span style={{ fontSize: "12px" }} className="font-medium px-6 uppercase text-gray-600 sm:block hidden overused-grotesk-semibold">returned</span>
 
       </div>
 
-      <div className="flex flex-col justify-evenly items-center space-y-2 mt-4 w-full">
+      <div className="flex flex-col justify-evenly items-center space-y-2 mt-4 w-full overused-grotesk-semibold">
         <div className="flex flex-row justify-evenly items-start  text-xs sm:text-sm sm:w-5/6 w-full border-t border-gray-500 py-4">
             <span className="font-medium text-center text-black w-10 px-2"></span>
             <span className="font-semibold  text-center text-black w-32 uppercase">product</span>

@@ -36,7 +36,7 @@ export default function LoginModal({ isOpen, onClose }) {
                 ✕
               </button>
 
-              <h2 className="text-center font-semibold mb-6">SIGN IN TO CONTINUE</h2>
+              <h2 className="overused-grotesk-semibold text-center font-semibold mb-6">SIGN IN TO CONTINUE</h2>
 
               <input
                 type="email"
@@ -52,15 +52,15 @@ export default function LoginModal({ isOpen, onClose }) {
                 <FaApple /> 
               </button>
 
-              <button className="border border-black px-4 py-2 w-3/5 mt-2 self-center">
+              <button className="overused-grotesk-semibold border border-black px-4 py-2 w-3/5 mt-2 self-center">
                 Continue
               </button>
 
-              <p className="text-center text-xs mt-4 text-black">
+              <p className="overused-grotesk-semibold text-center text-xs mt-4 text-black">
                 Don’t have an Account?{" "}
                 
               </p>
-              <p style={{ fontSize: "12px" }} className="underline text-black text-center font-medium  cursor-pointer">
+              <p style={{ fontSize: "12px" }} className="overused-grotesk-semibold underline text-black text-center font-medium  cursor-pointer">
                   Create
                 </p>
             </div>
