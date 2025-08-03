@@ -29,7 +29,7 @@ const cardData = [
 export default function Cards(){
     return(
         <>
-        <div className="w-full h-[34rem] overflow-x-auto scrollbar-white">
+        <div className="w-full  overflow-x-auto scrollbar-white">
             <div className="inline-flex w-max h-full flex-nowrap space-x-2 px-4 pt-4">
               {cardData.map((card, index) => (
                 <Card key={index} title={card.title} description={card.description} imageUrl={card.imageUrl} />

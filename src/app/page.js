@@ -25,13 +25,13 @@ export default function Home() {
 
       <Banner  />
    
-        <div className="flex flex-col items-center justify-center text-center w-full pt-2 pb-4">
-          <p style={{ fontSize: "12px" }} className="text-black font-medium mt-10 overused-grotesk-semibold">
+        <div className="flex flex-col items-center justify-center text-center w-full">
+          <p style={{ fontSize: "12px" }} className="text-black font-medium mt-12 overused-grotesk-semibold">
             Designed in Seoul, South Korea, made for India
           </p>
           <p style={{ fontSize: "12px"  }} className="text-black relative leading-tight font-medium overused-grotesk-semibold">Modern minimalist silhouettes --- crafted for those who value simplicity, elegance, and concious living</p>
       
-          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 border-black border font-medium mt-4 mb-8">Shop</button>
+          <button onClick={()=> router.push("/product")} className="bg-white text-xs text-black py-2 px-8 border-black border font-medium mt-4 mb-12">Shop</button>
 
         </div>
 
@@ -42,13 +42,13 @@ export default function Home() {
           <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
+        <div className="flex flex-col items-center justify-center text-center w-full mt-24 text-black">
           <h1 style={{ fontSize: "12px" }} className="text-center uppercase  overused-grotesk-semibold ">new arrivals</h1>
           <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-24"><GoChevronLeft color="black" size={18} /> <GoChevronRight color="black" size={18} /></p>
           <Cards />
         </div>
 
-        <div className="flex flex-row items-center justify-between flex-wrap text-center w-full py-4 mt-20 text-black">
+        <div className="flex flex-row items-center justify-between flex-wrap text-center w-full mt-48 text-black">
           <div className="h-96 w-full sm:w-1/2 flex flex-col justify-between items-start p-4 bg-[#284123] text-white">
             <div className="flex flex-row items-center space-x-2 justify-start w-full flex-wrap mt-2">
               <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
@@ -58,9 +58,9 @@ export default function Home() {
               <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
             </div>
             <div className="text-left text-sm font-normal">
-              <p style={{ fontSize: "8px" }} className="">Maria L.</p>
-              <p style={{ fontSize: "10px" }} className=" ">July 2025</p>
-              <p className="text-xs">Best organic product ever!</p>
+              <p style={{ fontSize: "8px" }} className="overused-grotesk-medium">Maria L.</p>
+              <p style={{ fontSize: "10px" }} className="overused-grotesk-medium">July 2025</p>
+              <p className="text-xs overused-grotesk-medium">Best organic product ever!</p>
               <p className="text-xs text-[#DCE2C8] overused-grotesk-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
 
             </div>
@@ -68,25 +68,25 @@ export default function Home() {
           </div>
 
 
-          <div className="h-96 w-full sm:w-1/2 flex flex-col justify-center items-start p-10 bg-[#ffffff] text-black">
+          <div className="h-96 w-full sm:w-1/2 flex flex-col justify-center items-start px-10 bg-[#ffffff] text-black">
            
             <div className="text-left text-sm font-normal">
               <p className="text-4xl text-[#284123] w-16">Radcially <span className="underline pb-4">Clean™</span></p>
               <p className="text-xs text-[#284123] w-20 mb-6">from source to skin</p>
-              <p className="text-xs text-[#284123]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
+              <p className="text-xs text-[#284123] overused-grotesk-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus quam unde. Est dicta voluptatum aut facilis sequi culpa perferendis quidem? Dignissimos qui repellendus illum at sapiente. Numquam, sit dolorem.</p>
 
             </div>
             </div>
         </div>
 
 
-        <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
+        <div className="flex flex-col items-center justify-center text-center w-full mt-24 text-black">
           <h1 className="text-center uppercase  overused-grotesk-semibold  text-xs">bestsellers</h1>
           <p className="text-gray-600 text-xs sm:text-sm font-normal text-center flex justify-evenly w-24"><GoChevronLeft color='black' size={18} />  <GoChevronRight color='black' size={18} /></p>
           <Cards />
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center w-full py-4 mt-20 text-black">
+        <div className="flex flex-col items-center justify-center text-center w-full  mt-48 mb-36 text-black">
           <p style={{ fontSize: "12px" }} className="text-black font-normal w-80 text-center overused-grotesk-semibold">Subscribe to our mailing list for exclusive offers and enjoy <span className="font-bold">10%</span> off your first order</p>
           <input className="w-80 sm:w-2/5 h-10 border mt-4 border-black bg-gray-100 text-black text-center" placeholder="Email" type="email" />
           <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-8 border border-black self-center text-sm mt-2">Sign Up</button>

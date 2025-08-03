@@ -6,9 +6,9 @@ import { AiTwotoneCheckCircle, AiFillInstagram, AiFillTwitterSquare,  AiFillLink
 
 function Footer(){
   return (
-    <div className="flex flex-col justify-center items-center bg-white w-full py-28 overflow-x-hidden">
+    <div className="flex flex-col justify-center items-center bg-white w-full overflow-x-hidden">
 
-      <div style={{ fontSize: "12px" }} className="flex flex-col overused-grotesk-medium sm:flex-row  w-80 sm:w-3/5 font-semibold justify-evenly items-start sm:space-y-0 space-y-2 sm:items-center text-center py-4 text-black">
+      <div style={{ fontSize: "12px" }} className="flex flex-col overused-grotesk-medium sm:flex-row  w-80 sm:w-3/5 font-semibold justify-evenly items-start sm:space-y-0 space-y-2 sm:items-center text-center pb-4 text-black">
       <span>About THYME</span>
       <span>Frequently Asked Questions</span>
       <span>Materials</span>

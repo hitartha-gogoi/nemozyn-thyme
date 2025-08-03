@@ -15,9 +15,9 @@ function ProductPage() {
     <div className='relative flex flex-col items-center justify-center w-full bg-white overflow-x-hidden pt-20'>
       <Navbar />
 
-      <div className="flex flex-row items-center justify-center flex-wrap text-center w-full pt-2 pb-4">
+      <div className="flex flex-row items-center justify-center flex-wrap text-center w-full pt-2 px-4 sm:px-20">
         
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center w-80 sm:w-96">
             <Image alt="product Image" src={`/tshirt-1.jpg`} height={600} width={600} className="h-4/5 sm:h-[36rem] w-80 sm:w-96 mt-20" objectFit="contain" />
             <div className="flex flex-row items-center space-x-2 justify-center w-full mt-4">
                 <Image src={`/tshirt-1.jpg`} alt="product image" className="h-24 w-16" height={600} width={600} objectFit="cover" />
