@@ -36,10 +36,10 @@ export default function Home() {
         </div>
 
         <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-2">
-          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
-          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
-          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
-          <Image className="w-88 sm:w-1/2 h-80 sm:h-[40rem]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-[672px] h-[790px]" src={"/love-letter.png"} width={600} height={600} objectFit="cover" />
+          <Image className="w-[672px] h-[790px]" src={"/landing-2.webp"} width={600} height={600} objectFit="cover" />
+          <Image className="w-[672px] h-[790px]" src={"/flower.jpg"} width={600} height={600} objectFit="cover" />
+          <Image className="w-[672px] h-[790px]" src={"/landing-1.jpeg"} width={600} height={600} objectFit="cover" />
         </div>
 
         <div className="flex flex-col items-center justify-center text-center w-full mt-24 text-black">
@@ -51,11 +51,11 @@ export default function Home() {
         <div className="flex flex-row items-center justify-between flex-wrap text-center w-full mt-48 text-black">
           <div className="h-96 w-full sm:w-1/2 flex flex-col justify-between items-start p-4 bg-[#284123] text-white">
             <div className="flex flex-row items-center space-x-2 justify-start w-full flex-wrap mt-2">
-              <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
-              <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
-              <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
-              <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
-              <div className="w-8 h-8 rounded-full bg-[#DCE2C8]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#DCE2C8]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#DCE2C8]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#DCE2C8]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#DCE2C8]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#DCE2C8]"></div>
             </div>
             <div className="text-left text-sm font-normal">
               <p style={{ fontSize: "8px" }} className="overused-grotesk-medium">Maria L.</p>
@@ -88,8 +88,8 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center text-center w-full  mt-48 mb-36 text-black">
           <p style={{ fontSize: "12px" }} className="text-black font-normal w-80 text-center overused-grotesk-semibold">Subscribe to our mailing list for exclusive offers and enjoy <span className="font-bold">10%</span> off your first order</p>
-          <input className="w-80 sm:w-2/5 h-10 border mt-4 border-black bg-gray-100 text-black text-center" placeholder="Email" type="email" />
-          <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-8 border border-black self-center text-sm mt-2">Sign Up</button>
+          <input className="w-80 sm:w-2/5 h-10 border mt-4 border-black bg-gray-100 text-black overused-grotesk-medium text-center" placeholder="Email" type="email" />
+          <button className="px-10 py-4 text-center flex justify-center items-center w-60 h-8 border border-black self-center text-xs mt-2 overused-grotesk-medium">Sign Up</button>
         </div>
 
 

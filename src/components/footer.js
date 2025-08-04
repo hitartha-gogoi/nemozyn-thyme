@@ -24,7 +24,7 @@ function Footer(){
         <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
         <Image src={'/black-shirt.jpg'} className="h-80 w-80 object-cover" height={600} width={600} />
       </div>
-      <h1 className="absolute top-60 text-9xl font-extrabold text-center text-gray-300 uppercase my-6">thyme</h1>
+        <Image src={'/Logo.png'} className="h-40 w-96 sm:w-96 absolute top-60 scale-110 opacity-50" width={300} height={300} objectFit="contain" />
       </div>
 
       <p style={{ fontSize: "12px" }} className="banner-text text-sm font-medium text-black text-center overused-grotesk-medium ">This site is protected by the Recaptcha and Google privacy policy and Terms of Service apply.</p>

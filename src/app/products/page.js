@@ -29,7 +29,7 @@ function AllProductsPage() {
 
       <p className="font-medium w-80 text-center sm:w-[26rem] flex space-x-2 items-start mt-8"><span  className="text-xs text-black">I would like to receive updates about Thyme's new activities, exclusive products, tailored services and to have a personalised client experience based on my interests.</span></p>
       
-      <div className="flex flex-row justify-start sm:justify-center space-x-2 no-scrollbar items-center w-full px-4 mt-10 overflow-x-auto py-20" >
+      <div className="flex flex-row justify-start sm:justify-center space-x-2 no-scrollbar items-center w-full px-4 mt-24 overflow-x-auto" >
         <motion.div className="flex flex-col justify-center items-center w-80 flex-shrink-0">
             <Image src={"/SUB09789.jpg"} alt="image" width={300} height={300} className="w-80 h-[400px] object-cover" />
             <h1 style={{ fontSize: "12px "}} className="text-center uppercase overused-grotesk-semibold text-black leading-tight mt-2">seoul serenity</h1>
@@ -50,7 +50,7 @@ function AllProductsPage() {
         </motion.div>
       </div>
 
-      <div className="flex flex-row justify-start sm:justify-center space-x-2 no-scrollbar items-center w-full px-4 mt-10 overflow-x-auto py-20" >
+      <div className="flex flex-row justify-start sm:justify-center space-x-2 no-scrollbar items-center w-full px-4 mt-24 overflow-x-auto" >
         <motion.div className="flex flex-col justify-center items-center w-80 flex-shrink-0">
             <Image src={"/SUB00330.jpg"} alt="image" width={300} height={300} className="w-80 h-[400px] object-cover" />
             <h1 style={{ fontSize: "12px "}} className="text-center uppercase overused-grotesk-semibold text-black leading-tight mt-2">seoul serenity</h1>
@@ -71,7 +71,7 @@ function AllProductsPage() {
         </motion.div>
       </div>
 
-      <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-10 py-20">
+      <div className=" flex flex-row justify-center items-center w-full flex-wrap mt-24">
      <motion.div className="flex justify-center items-center relative w-full  sm:w-1/2 h-96 sm:h-[54rem] flex-shrink-0">
       <Image
         src="/SUB09789.jpg"
@@ -91,10 +91,10 @@ function AllProductsPage() {
         <Image className="w-88 sm:w-1/2 h-96 sm:h-[54rem] object-cover" src={"/SUB00268.jpg"} width={600} height={600} objectFit="contain" />
       </div>
 
-      <p className="font-medium w-full text-center mt-8 text-xs text-black leading-tight px-4">Certified organic essentials designed to be endure. Genderless and minimal.</p>
+      <p className="font-medium w-full text-center mt-12 text-xs text-black leading-tight px-4">Certified organic essentials designed to be endure. Genderless and minimal.</p>
       <p className="font-medium w-full text-center text-xs text-black leading-tight px-4">Produced locally from the finest organic materials</p>
 
-      <div className="flex flex-row justify-start sm:justify-center space-x-2 no-scrollbar items-center w-full px-4 mt-10 overflow-x-auto py-20" >
+      <div className="flex flex-row justify-start sm:justify-center space-x-2 no-scrollbar items-center w-full px-4 my-12 overflow-x-auto" >
         <motion.div className="flex flex-col justify-center items-center w-80 flex-shrink-0">
             <Image src={"/SUB00330.jpg"} alt="image" width={300} height={300} className="w-80 h-[400px] object-cover" />
             <h1 style={{ fontSize: "12px "}} className="text-center uppercase overused-grotesk-semibold text-black leading-tight mt-2">seoul serenity</h1>

@@ -12,7 +12,7 @@ function Banner(){
       {/* bring the image to top */}
       <div className="absolute inset-0 z-0 h-72 sm:h-[36rem] w-full" >
         <Image
-          src="/landing-image.png"
+          src="/banner-image-2.jpg"
           alt="Background Image"
           layout="fill"
           objectPosition="center"
